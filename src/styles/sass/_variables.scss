@@ -12,10 +12,20 @@ $small_smartphone_width: 319px;
 
 // light theme
 :root {
-  --primary-color: #000000;
+  --color-primary: #000000;
+  --color-secondary: #0f1826;
+  --color-third: #607987;
+  --color-grey: #c4c4c4;
+  --color-accent: #ba8d5b;
+  --color-inverse: #ffffff;
 }
 
 //dark theme
 [data-theme="dark"] {
-  --primary-color: #ffffff;
+  --color-primary: #ffffff;
+  --color-secondary: #0f1826;
+  --color-third: #bbe7ff;
+  --color-grey: #c4c4c4;
+  --color-accent: #ba8d5b;
+  --color-inverse: #000000;
 }
