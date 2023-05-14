@@ -1,0 +1,187 @@
+@import "variables";
+@import "globals";
+
+@media screen and (max-width: 1440px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 375px) {
+}
+
+.main {
+  font-family: sans-serif;
+  color: var(--primary-color);
+  .hero {
+    height: 60vh;
+    background-color: #f9f8f7;
+    padding-top: 83px;
+    .hero_inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+
+      .hero_content {
+        max-width: 325px;
+        .hero_content_title {
+          font-weight: 700;
+          font-size: 40px;
+          max-width: 160px;
+          letter-spacing: -0.8px;
+          margin: 0;
+          span {
+            color: #ba8d5b;
+          }
+        }
+        .hero_content_body {
+          margin-top: 20px;
+          font-weight: 600;
+          font-size: 18px;
+          color: #607987;
+        }
+        .hero_content_button {
+          margin-top: 70px;
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          padding: 13px 47.8px 13px 46px;
+          background: #ba8d5b;
+          border-radius: 100px;
+          width: max-content;
+          color: #fff;
+        }
+      }
+
+      .hero_image {
+        overflow: hidden;
+        max-width: 866px;
+        max-height: 457px;
+
+        @media screen and (max-width: 1440px) {
+          max-width: 622px;
+          max-height: 426px;
+        }
+        @media screen and (max-width: 1024px) {
+          display: none;
+        }
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .our_adventages {
+    .our_adventages_title {
+    }
+    .our_adventages_cards {
+      .our_adventages_card {
+        .our_adventages_card_image {
+        }
+        .our_adventages_card_content {
+          .our_adventages_card_content_title {
+          }
+          .our_adventages_card_content_body {
+          }
+        }
+      }
+    }
+    .our_adventages_button {
+    }
+  }
+
+  .courses {
+    background-color: #f9f8f7;
+    .courses_inner {
+      .courses_title {
+      }
+      .courses_description {
+      }
+      .courses_cards {
+        .courses_card {
+          .courses_card_title {
+          }
+          .courses_card_description {
+          }
+        }
+      }
+      .courses_button {
+      }
+    }
+  }
+
+  .work_places {
+    .work_places_title {
+    }
+    .work_places_desription {
+    }
+    .work_places_cards {
+      .work_places_card {
+      }
+    }
+  }
+
+  .reviews {
+    .reviews_title {
+    }
+    .reviews_description {
+    }
+    .reviews_cards {
+      .reviews_card_background {
+        .reviews_card_image {
+          img {
+          }
+          span {
+          }
+        }
+        .reviews_card {
+          .reviews_card_button {
+          }
+          .reviews_card_content {
+            .reviews_card_content_date {
+            }
+            .reviews_card_content_type {
+            }
+            .reviews_card_content_name {
+            }
+          }
+        }
+      }
+    }
+    .reviews_cards_pagination {
+      .reviews_cards_pagination_next {
+      }
+      .reviews_cards_pagination_prev {
+      }
+    }
+  }
+
+  .support {
+    .support_image {
+    }
+    .support_form {
+      .support_form_title {
+      }
+      .support_form_description {
+        span {
+        }
+      }
+      .support_form_label {
+      }
+      .support_form_input {
+      }
+      .support_form_second_description {
+        span {
+        }
+      }
+      .support_form_button {
+      }
+    }
+  }
+}
+
+.container {
+  max-width: 1182px;
+  margin: 0 auto;
+  padding-inline: 32px;
+}
