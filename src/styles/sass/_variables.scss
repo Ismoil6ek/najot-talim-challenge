@@ -15,9 +15,7 @@ $small_smartphone_width: 319px;
   --primary-color: #000000;
 }
 
-// dark theme
-@media (prefers-color-scheme: dark) {
-  :root {
-    --primary-color: #ffffff;
-  }
+//dark theme
+[data-theme="dark"] {
+  --primary-color: #ffffff;
 }
