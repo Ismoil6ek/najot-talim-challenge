@@ -1,0 +1,23 @@
+$high_res_laptop_width: 1919px;
+$default_laptop_width: 1439px;
+$small_laptop_width: 1023px;
+
+$high_res_tablet_width: 833px;
+$default_tablet_width: 767px;
+$small_tablet_width: 599px;
+
+$high_res_smartphone_width: 479px;
+$default_smartphone_width: 374px;
+$small_smartphone_width: 319px;
+
+// light theme
+:root {
+  --primary-color: #000000;
+}
+
+// dark theme
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #ffffff;
+  }
+}
