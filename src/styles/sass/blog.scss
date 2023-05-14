@@ -12,7 +12,7 @@ ul {
 
 .main {
   margin: 0 auto;
-  padding: 0 32px;
+  padding: 0 32px 48px;
 }
 
 .blog-head-section {
@@ -106,9 +106,45 @@ ul {
   padding: 8px;
 
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   gap: 48px;
+}
+
+.blog-posts--visible,
+.blog-posts--hidden {
+  width: 78.2%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+
+.blog-posts--hidden {
+  display: none;
+}
+
+.show-more-btn {
+  padding: 13px 47px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+
+  outline: none;
+  background-color: #ba8d5b;
+  border-radius: 100px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: 0.3s ease;
+
+  &:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #bd8f5b;
+  }
 }
 
 .blog-posts__card {
@@ -131,6 +167,10 @@ ul {
 
 .blog-posts__card-head {
   padding: 8px;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
   width: 100%;
   height: 182px;
@@ -163,6 +203,7 @@ ul {
 .blog-posts__card-info {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .card-info__text {
@@ -171,6 +212,10 @@ ul {
   font-size: 14px;
   line-height: 17px;
   letter-spacing: -0.28px;
+
+  display: flex;
+  align-items: center;
+  gap: 6px;
 
   opacity: 0.35;
 }
