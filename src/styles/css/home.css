@@ -1,1 +1,69 @@
-/*# sourceMappingURL=home.css.map */
+.main {
+  font-family: sans-serif;
+}
+.main .hero {
+  background-color: #f9f8f7;
+  padding-top: 83px;
+}
+.main .hero .hero_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.main .hero .hero_inner .hero_content {
+  max-width: 325px;
+}
+.main .hero .hero_inner .hero_content .hero_content_title {
+  font-weight: 700;
+  font-size: 40px;
+  max-width: 160px;
+  letter-spacing: -0.8px;
+  margin: 0;
+}
+.main .hero .hero_inner .hero_content .hero_content_title span {
+  color: #ba8d5b;
+}
+.main .hero .hero_inner .hero_content .hero_content_body {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #607987;
+}
+.main .hero .hero_inner .hero_content .hero_content_button {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 13px 47.8px 13px 46px;
+  background: #ba8d5b;
+  border-radius: 100px;
+  width: max-content;
+  color: #fff;
+}
+.main .hero .hero_inner .hero_image {
+  overflow: hidden;
+  max-width: 866px;
+  max-height: 457px;
+}
+@media screen and (max-width: 1440px) {
+  .main .hero .hero_inner .hero_image {
+    max-width: 622px;
+    max-height: 426px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .main .hero .hero_inner .hero_image {
+    display: none;
+  }
+}
+.main .hero .hero_inner .hero_image img {
+  width: 100%;
+}
+.main .courses {
+  background-color: #f9f8f7;
+}
+.container {
+  max-width: 1182px;
+  margin: 0 auto;
+  padding-inline: 32px;
+}/*# sourceMappingURL=home.css.map */
